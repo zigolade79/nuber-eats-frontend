@@ -11,7 +11,6 @@ ReactDOM.render(
      <ApolloProvider client={client}>
      <App />
     </ApolloProvider>
-    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
